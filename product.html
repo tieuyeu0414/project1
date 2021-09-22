@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>SM SHOP</title>
+    <script src="../jquery/jquery-3.5.1.min.js"></script>
+    <script src="../bootstrap/bootstrap-4.5.3-dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../bootstrap/bootstrap-4.5.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./home.css">
+    <link rel="stylesheet" href="../font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <div id="header__head" class="text-center bg-dark text-white">
+            <div class="container">
+                <p class="header__head-txt">SM SHOP - Hệ thống shop bán đồ đôi - uy tín - giá rẻ - chất lượng Top 1
+                    Việt Nam
+                </p>
+            </div>
+        </div>
+        <div id="header__body">
+            <nav class="navbar navbar-expand-lg header__body-nav">
+                <a class="navbar-brand header__body-logo" href="./home.html">
+                    <img class="logo__img" src="./images/logo.jpg" alt="logo">
+                </a>
+                <button class="navbar-toggler header__body-logobtn" type="button" data-toggle="collapse"
+                    data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon logobtn__icon"></span>
+                    <span class="navbar-toggler-icon logobtn__icon"></span>
+                    <span class="navbar-toggler-icon logobtn__icon"></span>
+                </button>
+                <div class="container-pd">
+                    <div class="collapse item1" id="collapsibleNavbar">
+                        <ul class="navbar-nav header__body-menulist">
+                            <li class="nav-item menulist__item">
+                                <a class="nav-link menulist__item-linkmenu" href="./home.html">Trang Chủ</a>
+                            </li>
+                            <li class="nav-item menulist__item">
+                                <a class="nav-link menulist__item-linkmenu" href="./product.html">Sản Phẩm</a>
+                            </li>
+                            <li class="nav-item menulist__item">
+                                <a class="nav-item menulist__item-linkmenu menulist__item-child" href="#">Trợ
+                                    Giúp</a>
+                                <ul class="header__body-menulistchild">
+                                    <li class="menulist__item menulist__itemchild"><a href="./help.html"
+                                            class="menulist__item-linkmenu menulist__item-linkmenuchild">Giới Thiệu</a>
+                                    </li>
+                                    <li class="menulist__item menulist__itemchild"><a href="#"
+                                            class="nav-link menulist__item-linkmenu  menulist__item-linkmenuchild">Đổi
+                                            Mật Khẩu</a></li>
+                                    <li class="menulist__item menulist__itemchild"><a href="#"
+                                            class="nav-link menulist__item-linkmenu  menulist__item-linkmenuchild">Đổi
+                                            Địa Chỉ</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item menulist__item">
+                                <a class="nav-link menulist__item-linkmenu menulist__item-child" href="#">Tài Khoản</a>
+                                <ul class="header__body-menulistchild">
+                                    <li class="menulist__item menulist__itemchild"><a href="./login.html"
+                                            class="menulist__item-linkmenu menulist__item-linkmenuchild">Đăng Nhập</a>
+                                    </li>
+                                    <li class="menulist__item menulist__itemchild"><a href="./register.html"
+                                            class="nav-link menulist__item-linkmenu  menulist__item-linkmenuchild">Đăng
+                                            Ký</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item menulist__item">
+                                <a class="nav-link menulist__item-linkmenu" href="./rules.html">Điều khoản</a>
+                            </li>
+                            <li class="nav-item menulist__item">
+                                <a class="nav-link menulist__item-linkmenu" href="./contact.html">Liên hệ</a>
+                            </li>
+                            <li class="nav-item menulist__item">
+                                <a class="nav-link menulist__item-linkmenu" href="#">Giỏ Hàng</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <section>
+        <div class="slide">
+            <div id="carouselExampleIndicators" class="carousel slide slide__img" data-ride="carousel"
+                data-interval="5000">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2" class="slide__img-toggle"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="3" class="slide__img-toggle"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="4" class="slide__img-toggle1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="5" class="slide__img-toggle1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="6" class="slide__img-toggle1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="7" class="slide__img-toggle1"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active slide__img-item">
+                        <div class="row">
+                            <img src="./images/slide-1.jpg" alt="First slide" class="col-lg-3 col-md-6 col-sm-6 col-12">
+                            <img src="./images/slide-2.jpg" alt="First slide"
+                                class="col-lg-3 col-md-6 col-sm-6 col-12 slide__grid1">
+                            <img src="./images/slide-3.jpg" alt="First slide"
+                                class="col-lg-3 col-md-6 col-sm-6 slide__grid">
+                            <img src="./images/slide-4.jpg" alt="First slide"
+                                class="col-lg-3 col-md-6 col-sm-6 slide__grid">
+                        </div>
+                    </div>
+                    <div class="carousel-item slide__img-item">
+                        <div class="row">
+                            <img src="./images/slide-5.jpg" alt="First slide"
+                                class="col-lg-3 col-md-6 col-sm-6 col-12 slide__grid1">
+                            <img src="./images/slide-6.jpg" alt="First slide" class="col-lg-3 col-md-6 col-sm-6 col-12">
+                            <img src="./images/slide-7.jpg" alt="First slide"
+                                class="col-lg-3 col-md-6 col-sm-6 slide__grid">
+                            <img src="./images/slide-8.jpg" alt="First slide"
+                                class="col-lg-3 col-md-6 col-sm-6 slide__grid">
+                        </div>
+                    </div>
+                    <div class="carousel-item slide__img-item">
+                        <div class="row">
+                            <img src="./images/slide-1.jpg" alt="First slide"
+                                class="col-lg-3 col-md-6 col-sm-6 slide__grid">
+                            <img src="./images/slide-2.jpg" alt="First slide"
+                                class="col-lg-3 col-md-6 col-sm-6 slide__grid">
+                            <img src="./images/slide-3.jpg" alt="First slide"
+                                class="col-lg-3 col-md-6 col-sm-6 col-12 slide__grid1">
+                            <img src="./images/slide-4.jpg" alt="First slide" class="col-lg-3 col-md-6 col-sm-6 col-12">
+                        </div>
+                    </div>
+                    <div class="carousel-item slide__img-item">
+                        <div class="row">
+                            <img src="./images/slide-5.jpg" alt="First slide"
+                                class="col-lg-3 col-md-6 col-sm-6 slide__grid">
+                            <img src="./images/slide-6.jpg" alt="First slide"
+                                class="col-lg-3 col-md-6 col-sm-6 slide__grid">
+                            <img src="./images/slide-7.jpg" alt="First slide" class="col-lg-3 col-md-6 col-sm-6 col-12">
+                            <img src="./images/slide-8.jpg" alt="First slide"
+                                class="col-lg-3 col-md-6 col-sm-6 col-12 slide__grid1">
+                        </div>
+                    </div>
+                    <div class="carousel-item slide__img-item">
+                        <div class="row">
+                            <img src="./images/slide-1.jpg" alt="First slide"
+                                class="col-lg-3 col-md-6 col-sm-6 col-12 slide__grid1">
+                            <img src="./images/slide-2.jpg" alt="First slide" class="col-lg-3 col-md-6 col-sm-6 col-12">
+                            <img src="./images/slide-3.jpg" alt="First slide"
+                                class="col-lg-3 col-md-6 col-sm-6 slide__grid">
+                            <img src="./images/slide-4.jpg" alt="First slide"
+                                class="col-lg-3 col-md-6 col-sm-6 slide__grid">
+                        </div>
+                    </div>
+                    <div class="carousel-item slide__img-item">
+                        <div class="row">
+                            <img src="./images/slide-5.jpg" alt="First slide" class="col-lg-3 col-md-6 col-sm-6 col-12">
+                            <img src="./images/slide-6.jpg" alt="First slide"
+                                class="col-lg-3 col-md-6 col-sm-6 col-12 slide__grid1">
+                            <img src="./images/slide-7.jpg" alt="First slide"
+                                class="col-lg-3 col-md-6 col-sm-6 slide__grid">
+                            <img src="./images/slide-8.jpg" alt="First slide"
+                                class="col-lg-3 col-md-6 col-sm-6 slide__grid">
+                        </div>
+                    </div>
+                    <div class="carousel-item slide__img-item">
+                        <div class="row">
+                            <img src="./images/slide-1.jpg" alt="First slide"
+                                class="col-lg-3 col-md-6 col-sm-6 slide__grid">
+                            <img src="./images/slide-2.jpg" alt="First slide"
+                                class="col-lg-3 col-md-6 col-sm-6 slide__grid">
+                            <img src="./images/slide-3.jpg" alt="First slide" class="col-lg-3 col-md-6 col-sm-6 col-12">
+                            <img src="./images/slide-4.jpg" alt="First slide"
+                                class="col-lg-3 col-md-6 col-sm-6 col-12 slide__grid1">
+                        </div>
+                    </div>
+                    <div class="carousel-item slide__img-item">
+                        <div class="row">
+                            <img src="./images/slide-5.jpg" alt="First slide"
+                                class="col-lg-3 col-md-6 col-sm-6 slide__grid">
+                            <img src="./images/slide-6.jpg" alt="First slide"
+                                class="col-lg-3 col-md-6 col-sm-6 slide__grid">
+                            <img src="./images/slide-7.jpg" alt="First slide"
+                                class="col-lg-3 col-md-6 col-sm-6 col-12 slide__grid1">
+                            <img src="./images/slide-8.jpg" alt="First slide" class="col-lg-3 col-md-6 col-sm-6 col-12">
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+        <article>
+            <div class="article__product">
+                <div class="container-fluid">
+                    <h3 class="text-center article__product-title">Sản Phẩm</h3>
+                    <div class="filter">
+                        <div class="container">
+                            <div class="row">
+                                <div class="filter__input col-md-8 col-sm-8 col-12">
+                                    <i class="fa fa-search" aria-hidden="true"></i>
+                                    <input type="search" placeholder="Tìm kiếm">
+                                </div>
+                                <div class="fliter__sort col-md-4 col-sm-4 col-12">
+                                    <h5>Sắp xếp: </h5>
+                                    <select name="" id="">
+                                        <option selected disabled>Giá</option>
+                                        <option value="1">Giá: Thấp đến Cao</option>
+                                        <option value="2">Giá: Cao đến Thấp </option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row d-inline-flex">
+                        <div class="col-6 col-sm-6 col-md-3 p-2 col-large-5">
+                            <div class="d-flex flex-column text-center border article__product-itemproduct">
+                                <a href="#" class="itemproduct__img"><img
+                                        src="./images/ao-khoat-cap-den-in-hoa-tiet-pig-aele-6coa6999OQYHpIciUUFR-400x400.jpg"
+                                        alt="photo" />
+                                </a>
+                                <div class="itemproduct__txt">
+                                    <a href="#">
+                                        <div>Áo khoác cặp tình nhân tay dài họa tiết <span
+                                                class="itemproduct__txt-span">A2352</span>
+                                        </div>
+                                    </a>
+                                    <p class="itemproduct__txt-p">420.000 VNĐ</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-sm-6 col-md-3 p-2 col-large-5">
+                            <div class="d-flex flex-column text-center border article__product-itemproduct">
+                                <a href="#" class="itemproduct__img"><img src="./images/20203911757533592.jpg"
+                                        alt="photo" />
+                                </a>
+                                <div class="itemproduct__txt">
+                                    <a href="#">
+                                        <div>Váy sơ mi cặp hàn quốc <span class="itemproduct__txt-span">E370</span>
+                                        </div>
+                                    </a>
+                                    <p class="itemproduct__txt-p">325.000 VNĐ</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-sm-6 col-md-3 p-2 col-large-5">
+                            <div class="d-flex flex-column text-center border article__product-itemproduct">
+                                <a href="#" class="itemproduct__img"><img src="./images/12-6-400x400.jpg" alt="photo" />
+                                </a>
+                                <div class="itemproduct__txt">
+                                    <a href="#">
+                                        <div>Set đồ đôi đi biển <span class="itemproduct__txt-span">NAD155</span>
+                                        </div>
+                                    </a>
+                                    <p class="itemproduct__txt-p">420.000 VNĐ</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-sm-6 col-md-3 p-2 col-large-5">
+                            <div class="d-flex flex-column text-center border article__product-itemproduct">
+                                <a href="#" class="itemproduct__img"><img src="./images/2017427142948251396.jpg"
+                                        alt="photo" /></a>
+                                <div class="itemproduct__txt">
+                                    <a href="#">
+                                        <div>Shop bán set váy đôi <span class="itemproduct__txt-span">E125</span>
+                                        </div>
+                                    </a>
+                                    <p class="itemproduct__txt-p">365.000 VNĐ</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-sm-6 col-md-3 p-2 col-large-5">
+                            <div class="d-flex flex-column text-center border article__product-itemproduct">
+                                <a href="#" class="itemproduct__img"><img src="./images/2020528143229274667.jpg"
+                                        alt="photo" /></a>
+                                <div class="itemproduct__txt">
+                                    <a href="#">
+                                        <div>Váy đôi tình nhân đẹp <span class="itemproduct__txt-span">E380</span>
+                                        </div>
+                                    </a>
+                                    <p class="itemproduct__txt-p">300.000 VNĐ</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-sm-6 col-md-3 p-2 col-large-5">
+                            <div class="d-flex flex-column text-center border article__product-itemproduct">
+                                <a href="#" class="itemproduct__img"><img src="./images/20181219133720841386.jpg"
+                                        alt="photo" /></a>
+                                <div class="itemproduct__txt">
+                                    <a href="#">
+                                        <div>Đồ đôi sơ mi chụp ảnh đẹp <span class="itemproduct__txt-span">E187</span>
+                                        </div>
+                                    </a>
+                                    <p class="itemproduct__txt-p">399.000 VNĐ</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-sm-6 col-md-3 p-2 col-large-5">
+                            <div class="d-flex flex-column text-center border article__product-itemproduct">
+                                <a href="#" class="itemproduct__img"><img src="./images/201811249522525438.jpg"
+                                        alt="photo" /></a>
+                                <div class="itemproduct__txt">
+                                    <a href="#">
+                                        <div>Váy đôi sơ mi đi dã ngoại <span class="itemproduct__txt-span">E182</span>
+                                        </div>
+                                    </a>
+                                    <p class="itemproduct__txt-p">252.000 VNĐ</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-sm-6 col-md-3 p-2 col-large-5">
+                            <div class="d-flex flex-column text-center border article__product-itemproduct">
+                                <a href="#" class="itemproduct__img"><img src="./images/timthumb.jpg" alt="photo" />
+                                </a>
+                                <div class="itemproduct__txt">
+                                    <a href="#">
+                                        <div>Áo sơ mi cặp đôi tay dài <span class="itemproduct__txt-span">N152</span>
+                                        </div>
+                                    </a>
+                                    <p class="itemproduct__txt-p">390.000 VNĐ</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-sm-6 col-md-3 p-2 col-large-5">
+                            <div class="d-flex flex-column text-center border article__product-itemproduct">
+                                <a href="#" class="itemproduct__img"><img src="./images/2017315135132746900.jpg"
+                                        alt="photo" /></a>
+                                <div class="itemproduct__txt">
+                                    <a href="#">
+                                        <div>Bán buôn set váy đôi <span class="itemproduct__txt-span">E112</span>
+                                        </div>
+                                    </a>
+                                    <p class="itemproduct__txt-p">300.000 VNĐ</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-sm-6 col-md-3 p-2 col-large-5">
+                            <div class="d-flex flex-column text-center border article__product-itemproduct">
+                                <a href="#" class="itemproduct__img"><img src="./images/2019321173330312490.jpg"
+                                        alt="photo" /></a>
+                                <div class="itemproduct__txt">
+                                    <a href="#">
+                                        <div>Bỏ sỉ váy đôi đi biển <span class="itemproduct__txt-span">E193</span>
+                                        </div>
+                                    </a>
+                                    <p class="itemproduct__txt-p">400.000 VNĐ</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-sm-6 col-md-3 p-2 col-large-5">
+                            <div class="d-flex flex-column text-center border article__product-itemproduct">
+                                <a href="#" class="itemproduct__img"><img src="./images/20194151772483279.jpg"
+                                        alt="photo" /></a>
+                                <div class="itemproduct__txt">
+                                    <a href="#">
+                                        <div>Bán sỉ váy đôi đi biển <span class="itemproduct__txt-span">E196</span>
+                                        </div>
+                                    </a>
+                                    <p class="itemproduct__txt-p">200.000 VNĐ</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-sm-6 col-md-3 p-2 col-large-5">
+                            <div class="d-flex flex-column text-center border article__product-itemproduct">
+                                <a href="#" class="itemproduct__img"><img src="./images/2018416104741107109.jpg"
+                                        alt="photo" /></a>
+                                <div class="itemproduct__txt">
+                                    <a href="#">
+                                        <div>Set đồ đôi sơ mi <span class="itemproduct__txt-span">E161</span>
+                                        </div>
+                                    </a>
+                                    <p class="itemproduct__txt-p">499.000 VNĐ</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-sm-6 col-md-3 p-2 col-large-5">
+                            <div class="d-flex flex-column text-center border article__product-itemproduct">
+                                <a href="#" class="itemproduct__img"><img
+                                        src="./images/ao-doi-den-in-hoa-tiet-take-a-hike-set-gia-2-ao-chua-tinh-gia-quan-FsW9v05622vrOkHTsGKg-400x400.jpg"
+                                        alt="photo" />
+                                </a>
+                                <div class="itemproduct__txt">
+                                    <a href="#">
+                                        <div>Áo khoác cặp tình nhân tay dài họa tiết <span
+                                                class="itemproduct__txt-span">CD187</span>
+                                        </div>
+                                    </a>
+                                    <p class="itemproduct__txt-p">425.000 VNĐ</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-sm-6 col-md-3 p-2 col-large-5">
+                            <div class="d-flex flex-column text-center border article__product-itemproduct">
+                                <a href="#" class="itemproduct__img"><img src="./images/timthumb (1).jpg" alt="photo" />
+                                </a>
+                                <div class="itemproduct__txt">
+                                    <a href="#">
+                                        <div>Áo sơ mi đôi trắng họa tiết cao cấp <span
+                                                class="itemproduct__txt-span">A52</span>
+                                        </div>
+                                    </a>
+                                    <p class="itemproduct__txt-p">390.000 VNĐ</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-sm-6 col-md-3 p-2 col-large-5">
+                            <div class="d-flex flex-column text-center border article__product-itemproduct">
+                                <a href="#" class="itemproduct__img"><img src="./images/201912311137074447.jpg"
+                                        alt="photo" /></a>
+                                <div class="itemproduct__txt">
+                                    <a href="#">
+                                        <div>Váy đôi sơ mi đi biển <span class="itemproduct__txt-span">E369</span>
+                                        </div>
+                                    </a>
+                                    <p class="itemproduct__txt-p">450.000 VNĐ</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-sm-6 col-md-3 p-2 col-large-5">
+                            <div class="d-flex flex-column text-center border article__product-itemproduct">
+                                <a href="#" class="itemproduct__img"><img
+                                        src="./images/ao-thun-cap-khung-long-ham-an-db004.jpg" alt="photo" />
+                                </a>
+                                <div class="itemproduct__txt">
+                                    <a href="#">
+                                        <div>Áo Thun Cặp Khủng Long Ham Ăn <span
+                                                class="itemproduct__txt-span">DB004</span>
+                                        </div>
+                                    </a>
+                                    <p class="itemproduct__txt-p">199.000 VNĐ</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-sm-6 col-md-3 p-2 col-large-5">
+                            <div class="d-flex flex-column text-center border article__product-itemproduct">
+                                <a href="#" class="itemproduct__img"><img src="./images/12-6-400x400 (1).jpg"
+                                        alt="photo" />
+                                </a>
+                                <div class="itemproduct__txt">
+                                    <a href="#">
+                                        <div>Áo yếm đôi<span class="itemproduct__txt-span">NAD1312</span>
+                                        </div>
+                                    </a>
+                                    <p class="itemproduct__txt-p">259.000 VNĐ</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-sm-6 col-md-3 p-2 col-large-5">
+                            <div class="d-flex flex-column text-center border article__product-itemproduct">
+                                <a href="#" class="itemproduct__img"><img src="./images/the-gioi-ao-doi-545466.jpg"
+                                        alt="photo" /></a>
+                                <div class="itemproduct__txt">
+                                    <a href="#">
+                                        <div>Shop đồ đôi có hình cổ tròn <span
+                                                class="itemproduct__txt-span">R1756</span>
+                                        </div>
+                                    </a>
+                                    <p class="itemproduct__txt-p">365.000 VNĐ</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-sm-6 col-md-3 p-2 col-large-5">
+                            <div class="d-flex flex-column text-center border article__product-itemproduct">
+                                <a href="#" class="itemproduct__img"><img src="./images/ao-doi-tina-545456.jpg"
+                                        alt="photo" /></a>
+                                <div class="itemproduct__txt">
+                                    <a href="#">
+                                        <div>Đồ đôi tina <span class="itemproduct__txt-span">A1253</span>
+                                        </div>
+                                    </a>
+                                    <p class="itemproduct__txt-p">350.000 VNĐ</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-sm-6 col-md-3 p-2 col-large-5">
+                            <div class="d-flex flex-column text-center border article__product-itemproduct">
+                                <a href="#" class="itemproduct__img"><img
+                                        src="./images/ao-doi-trang-in-hoa-tiet-rag-kan-set-gia-2-ao-chua-tinh-gia-quan-nuMeRviteQCbnjtHU5KL-1-400x400.jpg"
+                                        alt="photo" /></a>
+                                <div class="itemproduct__txt">
+                                    <a href="#">
+                                        <div>Áo khoác cặp tình nhân tay dài họa tiết trắng <span
+                                                class="itemproduct__txt-span">E1325</span>
+                                        </div>
+                                    </a>
+                                    <p class="itemproduct__txt-p">425.000 VNĐ</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </article>
+        <div id="pagination">
+            <nav aria-label="Something..">
+                <ul class="pagination">
+                    <li class="page-item disabled">
+                        <a class="page-link pagination__link" href="#" tabindex="-1">&laquo;</a>
+                    </li>
+                    <li class="page-item active">
+                        <a class="page-link pagination__link" href="#">1</a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link pagination__link" href="#">2</a>
+                    </li>
+                    <li class="page-item"><a class="page-link pagination__link" href="#">3</a></li>
+                    <li class="page-item">
+                        <a class="page-link pagination__link" href="#">&raquo;</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+    <footer class="bg-dark text-center text-white mt-5">
+        <div class="p-4">
+            <section class="mb-4">
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                </a>
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+                    <i class="fa fa-github" aria-hidden="true"></i>
+                </a>
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+                    <i class="fa fa-google" aria-hidden="true"></i>
+                </a>
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+                    <i class="fa fa-pinterest-p" aria-hidden="true"></i>
+                </a>
+            </section>
+            <section class="text-left footer">
+                <div class="container-fluid text-md-start mt-5">
+                    <div class="row mt-3">
+                        <div class="col-md-6 col-lg-4 col-xl-3 mx-auto mb-4">
+                            <h6 class="text-uppercase fw-bold mb-4 footer__icon">
+                                <i class="fa fa-diamond" aria-hidden="true"></i> SM SHOP
+                            </h6>
+                            <p class="footer__txt">
+                                Nền tảng order SM SHOP, uy tín, giá rẻ và chất lượng
+                                <br>
+                                Không thủ tục, nhanh chóng mà tiện lợi
+                                <br>
+                                Tiết kiệm thời gian và thao tác, giao diện thân thiện với người dùng
+                            </p>
+                        </div>
+                        <div class="col-md-6 col-lg-2 col-xl-2 mx-auto mb-4 footer__list">
+                            <h6 class="text-uppercase fw-bold mb-4 ">
+                                Trợ Giúp
+                            </h6>
+                            <p>
+                                <a href="./help.html" class="text-reset"><i class="fa fa-chevron-right"
+                                        aria-hidden="true"></i>
+                                    Giới Thiệu</a>
+                            </p>
+                            <p>
+                                <a href="./rules.html" class="text-reset"><i class="fa fa-chevron-right"
+                                        aria-hidden="true"></i>
+                                    Điều Khoản</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset"><i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                    Đổi Địa Chỉ</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset"><i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                    Quên Mật Khẩu</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset"><i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                    Liên Hệ</a>
+                            </p>
+                        </div>
+                        <div class="col-md-6 col-lg-2 col-xl-2 mx-auto mb-4 footer__list">
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                Sự Kiện Nổi Bật
+                            </h6>
+                            <p>
+                                <a href="#!" class="text-reset"><i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                    Sản Phẩm Mới</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset"><i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                    Sản Phẩm Bán Chạy</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset"><i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                    Sản Phẩm Giảm Giá</a>
+                            </p>
+                        </div>
+                        <div class="col-md-6 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 footer__list">
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                Contact
+                            </h6>
+                            <p><i class="fa fa-address-card-o" aria-hidden="true"></i> 123 Sài Đồng, Long Biên, Hà Nội
+                            </p>
+                            <p>
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                                SMSHOP@gmail.com
+                            </p>
+                            <p><i class="fa fa-phone" aria-hidden="true"></i> 0943856881</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+                © 2021 Copyright:
+                <a class="text-reset fw-bold" href="./home.html">SMSHOP.com</a>
+            </div>
+    </footer>
+</body>
+
+</html>
